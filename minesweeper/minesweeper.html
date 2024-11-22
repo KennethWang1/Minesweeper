@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width" type = "text\html">
+        <link rel = "stylesheet" type = "text/css" href = "./minesweeper.css"/>
+        <!--<link rel="icon" type="image/x-icon" href="./images/favicon.ico?v=2">-->
+        <title>Minesweeper</title>
+    </head>
+
+    <body>
+        <div class = "topbar" id = "topbar">
+            <div class = "minesleft" id = "minesleft"></div>
+            <button class = "restart" id = "restart" onclick="restart()">Restart</button>
+            <label for="width">width</label>
+            <input type="text" id="width" name="width" value="10" type="number" max = "100" min = "4" required>
+            <label for="height">height</label>
+            <input type="height" id="height" name="height" value="10" type="number" max = "100" min = "4" required>
+            <label for="Mines">Mines</label>
+            <input type="Mines" id="Mines" name="Mines" value="15" type="number" min = "1" required>
+        </div>
+
+        <div class = "board" id = "board">
+            
+        </div>
+        <p>
+            Left-click an empty square to reveal it.
+            Right-click an empty square to flag it.
+        </p>
+        <script type = "text/javascript" src = "minesweeper.js"></script>
+    </body>
+</html>

@@ -1,0 +1,132 @@
+#board{
+    background-color: white;
+}
+
+.board{
+    display: grid;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.flag{
+    position: relative;
+    background-color: gray;
+    background-image: url("./assets/flag.png") !important;
+    color: white;
+    border: 2px solid black; /* Set border width, style, and color */
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.bomb{
+    position: relative;
+    background-color: gray;
+    background-image: url("./assets/mine.png") !important;
+    color: white;
+    border: 2px solid black; /* Set border width, style, and color */
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.unknown{
+    position: relative;
+    background-color: gray;
+    border-color: black !important;
+    border: 2px solid black; /* Set border width, style, and color */
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.one {
+    position: relative;
+    background-color: blue !important;
+    color: white;
+    border: 2px solid black; /* Set border width, style, and color */
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.two{
+    position: relative;
+    background-color: green;
+    color: white;
+    border: 2px solid black; /* Set border width, style, and color */
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.three{
+    position: relative;
+    background-color: red;
+    color: white;
+    border: 2px solid black; /* Set border width, style, and color */
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.four{
+    position: relative;
+    background-color: darkblue;
+    color: white;
+    border: 2px solid black; /* Set border width, style, and color */
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.five{
+    position: relative;
+    background-color: brown;
+    color: white;
+    border: 2px solid black; /* Set border width, style, and color */
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.six{
+    position: relative;
+    background-color: cyan;
+    color: white;
+    border: 2px solid black; /* Set border width, style, and color */
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.seven{
+    position: relative;
+    background-color: black;
+    color: white;
+    border: 2px solid black; /* Set border width, style, and color */
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.eight{
+    position: relative;
+    background-color: gray;
+    color: white;
+    border: 2px solid black; /* Set border width, style, and color */
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.empty{
+    position: relative;
+    background-color: white;
+    color: white;
+    border: 2px solid black; /* Set border width, style, and color */
+    width: 12px;
+    height: 12px;
+    float: left;
+}
